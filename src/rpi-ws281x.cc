@@ -120,7 +120,7 @@ void init(const Nan::FunctionCallbackInfo<v8::Value>& info) {
       ledstring.channel[0].brightness = config->Get(symBrightness)->Int32Value();
     }
 
-    if(config->HasOwnProperty(symStripType)) {
+    if(Nan::HasOwnProperty(config, symStripType).FromMaybe(false)) {
       ledstring.channel[0].strip_type = config->Get(symStripType)->Int32Value();
     }
   }
