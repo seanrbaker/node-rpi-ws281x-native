@@ -1,3 +1,6 @@
+## Furthering others' greatness
+This fork simply solidifies a few tweaks to the real heroes' work in order to stabilize it on modern HW and Raspbian releases, which had led to personal project failures. I take no credit whatsoever for their fantastic work, but of course if these tweaks help you, so much the better.
+
 # control ws281x-LEDs with node.js
 
 > if you happen to know C++ and node/iojs/V8, I would really appreciate any help 
